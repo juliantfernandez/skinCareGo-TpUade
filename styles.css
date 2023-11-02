@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Satisfy&display=swap');
+:root {
+    --color-background: #EBEAE4;
+    --color-text: #906D4F;
+    --color-accent: #DDD2C2;
+    --color-primary: #8B735F;
+    --color-secondary: #999081;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url('media/bannerHome.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 100vh;
+    position: relative;
+  }
+
+
+/* header::before{
+    opacity: 0.5;
+} */
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 300px;
+}
+hr{
+    border: 1px solid var(--color-background);
+    margin: 0px 50px 0px 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 10px;
+    
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--color-background);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.main-section {
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  .main-section p {
+    font-size: 16px;
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+  
+.main-section h2{
+    margin-top: 75px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
+
+.main-section h3{
+    text-align: center;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.main-section p{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.main-section button{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 200px;
+    background-color: var(--color-text);
+    border: none;
+    color: var(--color-background);
+}
+
+.main-section button:hover{
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.middle-section{
+    margin-top: 75px;
+    background-image: url('/media/bannerMiddle.jpeg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-section div{
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.middle-section h2{
+    text-align: center;
+    color: var(--color-text);
+    font-size: 55px;
+    font-weight: 400;
+    font-family: 'Satisfy', cursive;
+    padding-top: 25px;
+}
